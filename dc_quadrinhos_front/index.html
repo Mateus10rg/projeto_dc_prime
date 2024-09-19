@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DC Prime</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+    <!-- Barra de Navegação -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="index.html"><img src="imgs/Logo/Logo-DC_1.png" alt="Logo DC"></a>
+                <a class="navbar-brand text-center" href="index.html">DC Prime</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="form.html">Formulário</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="consultar.html">Consulta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- Fim da Barra de Navegação -->
+        <div class="container-fluid bg-secondary text-light text-center py-4">
+            <div class="container">
+                <div class="container d-flex justify-content-center col-2">
+                    <img onclick="abrir('https://www.dc.com/characters/superman')"  class="img-fluid m-1" src="imgs/Characters/Superman.jpg" alt="Superman" style="cursor: pointer">
+                    <img onclick="abrir('https://www.dc.com/characters/batman')" class="img-fluid m-1" src="imgs/Characters/Batman.jpg" alt="Batman" style="cursor: pointer">
+                    <img onclick="abrir('https://www.dc.com/characters/the-flash')" class="img-fluid m-1" src="imgs/Characters/The Flash.jpg" alt="The Flash" style="cursor: pointer">
+                    <img onclick="abrir('https://www.dc.com/characters/wonder-woman')" class="img-fluid m-1" src="imgs/Characters/Wonder Woman.jpg" alt="Mulher-Maravilha" style="cursor: pointer">
+                    <img onclick="abrir('https://www.dc.com/characters/green-lantern')" class="img-fluid m-1" src="imgs/Characters/Green Lantern 1.jpg" alt="Lanterna Verde" style="cursor: pointer">
+                    <img onclick="abrir('https://www.dc.com/characters/green-arrow')" class="img-fluid m-1" src="imgs/Characters/Green Arrow.jpg" alt="Arqueiro Verde" style="cursor: pointer">
+                    <img onclick="abrir('https://www.dc.com/characters/cyborg')" class="img-fluid m-1" src="imgs/Characters/Cyborg.jpg" alt="Ciborgue" style="cursor: pointer">
+                    <img onclick="abrir('https://www.dc.com/characters/aquaman')" class="img-fluid m-1" src="imgs/Characters/Aquaman.jpg" alt="Aquaman" style="cursor: pointer">
+                </div>
+            </div>
+        </div>
+
+        <div class="herois">
+            <div class="bg-body-tertiary p-3">
+                <h1 style="color: #0a58ca">Superman</h1>
+                <h5>Mais rápido que uma bala, mais poderoso que uma locomotiva... O Homem de Aço luta uma batalha sem fim por verdade, justiça e o modo de vida americano.</h5>
+                <div id="superman" class="d-flex col-2 ">
+                    <!-- classes das imagens (class="img-fluid m-2") -->
+                </div>
+            </div>
+            <div class="p-3">
+                <h1 style="color: black">Batman</h1>
+                <h5>Um dos personagens fictícios mais icônicos do mundo, Batman dedicou sua vida a uma cruzada sem fim, uma guerra contra todos os criminosos em nome de seus pais assassinados, que foram tirados dele quando ainda era uma criança. Desde aquela noite trágica, ele treinou seu corpo e mente até a perfeição física para ser um Super-Herói feito por si mesmo. Ele desenvolveu um arsenal de tecnologia que deixaria a maioria dos exércitos envergonhados. E ele formou equipes de outros Super-Heróis da DC, como a Liga da Justiça, os Renegados e a Batman Incorporated.</h5>
+                <div id="batman" class="d-flex col-2">
+                    <!-- classes das imagens (class="img-fluid m-2") -->
+                </div>
+            </div>
+            <div class="bg-body-tertiary p-3">
+                <h1 style="color: #842029">The Flash</h1>
+                <h5>O misterioso poder conhecido como Força de Aceleração é um campo de energia que, ao longo dos séculos, concedeu incríveis poderes de velocidade a certos heróis. O mais famoso deles é o Flash, também conhecido como o Homem Mais Rápido do Mundo. Desde os dias da Segunda Guerra Mundial, sempre houve um homem vestido de vermelho que podia correr em velocidades impossíveis, usando seu poder para salvar vidas e defender aqueles que não podem se defender. Tudo entre os tiques de um segundo.</h5>
+                <div id="flash" class="d-flex col-2">
+                    <!-- classes das imagens (class="img-fluid m-2") -->
+                </div>
+            </div>
+            <div class="p-3">
+                <h1 style="color: goldenrod">Mulher-Maravilha</h1>
+                <h5>Uma das Super-Heroínas mais amadas e icônicas da DC de todos os tempos, a Mulher-Maravilha tem sido, por quase oitenta anos, um símbolo de verdade, justiça e igualdade para pessoas de todo o mundo. Criada na ilha escondida de Themyscira, também conhecida como Ilha Paraíso, Diana é uma Amazona, como as figuras da lenda grega, e o presente de seu povo para a humanidade.</h5>
+                <div id="wonder" class="d-flex col-2">
+                    <!-- classes das imagens (class="img-fluid m-2") -->
+                </div>
+            </div>
+            <div class="bg-body-tertiary p-3">
+                <h1 style="color: #198754">Lanterna Verde</h1>
+                <h5>O piloto de testes Hal Jordan passou de ser uma novidade, o primeiro Lanterna Verde humano, a um dos Lanternas mais lendários a empunhar um anel de poder.</h5>
+                <div id="lantern" class="d-flex col-2">
+                    <!-- classes das imagens (class="img-fluid m-2") -->
+                </div>
+            </div>
+            <div class="p-3">
+                <h1 style="color: #0f5132">Arqueiro Verde</h1>
+                <h5>O bilionário Oliver Queen usa tanto sua riqueza quanto suas habilidades incomparáveis em arco e flecha como o arqueiro combatente da Liga da Justiça, o Arqueiro Verde.</h5>
+                <div id="arrow" class="d-flex col-2">
+                    <!-- classes das imagens (class="img-fluid m-2") -->
+                </div>
+            </div>
+            <div class="bg-body-tertiary p-3">
+                <h1 style="color: #5c636a">Ciborgue</h1>
+                <h5>Parte homem, parte máquina, Vic Stone é um ex-membro dos Jovens Titãs e um membro atual da Liga da Justiça que luta para preservar sua humanidade a cada nova atualização.</h5>
+                <div id="cyborg" class="d-flex col-2">
+                    <!-- classes das imagens (class="img-fluid m-2") -->
+                </div>
+            </div>
+            <div class="p-3">
+                <h1 style="color: orangered">Aquaman</h1>
+                <h5>Filho de um faroleiro e de uma rainha atlante, Arthur Curry é a ponte entre o mundo da superfície e seu reino tumultuado do mar.</h5>
+                <div id="aquaman" class="d-flex col-2">
+                    <!-- classes das imagens (class="img-fluid m-2") -->
+                </div>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/funcoes.js" crossorigin="anonymous"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', popularSessoes);
+        </script>
+    </body>
+</html>
